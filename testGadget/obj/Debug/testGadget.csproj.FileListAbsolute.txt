@@ -1,0 +1,15 @@
+C:\Users\nguye\source\repos\testGadget\testGadget\bin\Debug\testGadget.exe.config
+C:\Users\nguye\source\repos\testGadget\testGadget\bin\Debug\testGadget.exe
+C:\Users\nguye\source\repos\testGadget\testGadget\bin\Debug\testGadget.pdb
+C:\Users\nguye\source\repos\testGadget\testGadget\obj\Debug\testGadget.csprojAssemblyReference.cache
+C:\Users\nguye\source\repos\testGadget\testGadget\obj\Debug\MainWindow.g.cs
+C:\Users\nguye\source\repos\testGadget\testGadget\obj\Debug\App.g.cs
+C:\Users\nguye\source\repos\testGadget\testGadget\obj\Debug\testGadget_MarkupCompile.cache
+C:\Users\nguye\source\repos\testGadget\testGadget\obj\Debug\testGadget_MarkupCompile.lref
+C:\Users\nguye\source\repos\testGadget\testGadget\obj\Debug\MainWindow.baml
+C:\Users\nguye\source\repos\testGadget\testGadget\obj\Debug\testGadget.g.resources
+C:\Users\nguye\source\repos\testGadget\testGadget\obj\Debug\testGadget.Properties.Resources.resources
+C:\Users\nguye\source\repos\testGadget\testGadget\obj\Debug\testGadget.csproj.GenerateResource.cache
+C:\Users\nguye\source\repos\testGadget\testGadget\obj\Debug\testGadget.csproj.CoreCompileInputs.cache
+C:\Users\nguye\source\repos\testGadget\testGadget\obj\Debug\testGadget.exe
+C:\Users\nguye\source\repos\testGadget\testGadget\obj\Debug\testGadget.pdb

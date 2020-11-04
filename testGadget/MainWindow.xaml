@@ -1,0 +1,33 @@
+﻿<Window x:Class="testGadget.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+        xmlns:local="clr-namespace:testGadget"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="238.505" Width="658.751"
+        AllowsTransparency="True"
+        WindowStartupLocation="Manual"
+        Top="50" Left="0"
+        WindowStyle="None"
+        Background="Transparent"
+        ShowInTaskbar="False"
+        MouseLeftButtonDown="Window_MouseLeftButtonDown">
+    <Canvas Margin="10">
+        <TextBlock
+            x:Name="txtBlock"
+            FontSize="150" Foreground="Wheat" Height="199" Width="558" Canvas.Left="10" Canvas.Top="10" RenderTransformOrigin="0.5,0.5">
+            00:00:00
+        </TextBlock>
+        <Button 
+            x:Name="btnClose"
+            Canvas.Left="573" 
+            Canvas.Top="130" Width="40" Height="40"
+            Background="Transparent"
+            Click="btnClose_Click"/>
+        <TextBlock
+            x:Name="txtBlock_shawdow"
+            FontSize="150" Foreground="Red" Height="199" Width="558" Canvas.Left="14" RenderTransformOrigin="0.5,0.5" Canvas.Top="12"><Run Text="00:00:00"/></TextBlock>
+    </Canvas>
+</Window>
