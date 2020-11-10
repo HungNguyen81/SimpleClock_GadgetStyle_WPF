@@ -13,21 +13,59 @@
         WindowStyle="None"
         Background="Transparent"
         ShowInTaskbar="False"
-        MouseLeftButtonDown="Window_MouseLeftButtonDown">
+        
+        MouseLeftButtonDown="Window_MouseLeftButtonDown"        
+        >
     <Canvas Margin="10">
         <TextBlock
-            x:Name="txtBlock"
-            FontSize="150" Foreground="Wheat" Height="199" Width="558" Canvas.Left="10" Canvas.Top="10" RenderTransformOrigin="0.5,0.5">
+            x:Name="txtBlock_shawdow"
+            FontSize="150" Foreground="Black" Height="199" Width="558" Canvas.Left="10" Canvas.Top="10" RenderTransformOrigin="0.5,0.5">
             00:00:00
         </TextBlock>
         <Button 
             x:Name="btnClose"
             Canvas.Left="573" 
-            Canvas.Top="130" Width="40" Height="40"
+            Canvas.Top="141" Width="40" Height="40"
             Background="Transparent"
             Click="btnClose_Click"/>
         <TextBlock
-            x:Name="txtBlock_shawdow"
+            x:Name="txtBlock"
             FontSize="150" Foreground="Red" Height="199" Width="558" Canvas.Left="14" RenderTransformOrigin="0.5,0.5" Canvas.Top="12"><Run Text="00:00:00"/></TextBlock>
+        <Button x:Name="btn_color"
+                Canvas.Left="563" 
+                FontSize="10"
+                FontWeight="DemiBold"
+                Foreground="White"
+                Background="Transparent"
+                Canvas.Top="83" 
+                Width="60" 
+                BorderBrush="White"
+                Click="btn_color_Click"
+                RenderTransformOrigin="0.5,0.5" 
+                Height="34">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.Content>
+                <Grid Width="50" Height="30">
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBlock HorizontalAlignment="Center"
+                               VerticalAlignment="Center">
+                        CHANGE</TextBlock>
+                    <TextBlock HorizontalAlignment="Center"
+                               VerticalAlignment="Center"
+                               Grid.Row="1">
+                        COLOR</TextBlock>
+                </Grid>
+            </Button.Content>
+        </Button>
     </Canvas>
 </Window>
